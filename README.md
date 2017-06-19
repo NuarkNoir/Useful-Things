@@ -15,19 +15,19 @@
 
 **Список:**
 
- - [![Images Downloader](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()Images Downloader
- - [![Pornreactor Links Grabber](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()Pornreactor Links Grabber
- - [![RuMineWrapper](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()RuMineWrapper
- - [![TLauncherModsGrabber](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()TLauncherModsGrabber
- - [![TLDR-API](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()TLDR-API
- - [![TrashboxAPI](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()TrashboxAPI
- - [![Launcher](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()Launcher
- - [![TrashboxDumper](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()TrashboxDumper
- - [![TegosStories](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()TegosStories
- - [![Pornreactor Image Galery](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()Pornreactor Image Galery
- - [![Image Processing](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()Image Processing
- - [![PHP TrashboxDumper](https://img.shields.io/badge/Language-PHP-blue.svg?style=flat-square)]()PHP TrashboxDumper
- - [![Senoclicker](https://img.shields.io/badge/Language-HTML+JavaScript-red.svg?style=flat-square)]()Senoclicker
+ - [![Images Downloader](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()	Images Downloader
+ - [![Pornreactor Links Grabber](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()	Pornreactor Links Grabber
+ - [![RuMineWrapper](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()	RuMineWrapper
+ - [![TLauncherModsGrabber](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()	TLauncherModsGrabber
+ - [![TLDR-API](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()	TLDR-API
+ - [![TrashboxAPI](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()	TrashboxAPI
+ - [![Launcher](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()	Launcher
+ - [![TrashboxDumper](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()	TrashboxDumper
+ - [![TegosStories](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()	TegosStories
+ - [![Pornreactor Image Galery](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()	Pornreactor Image Galery
+ - [![Image Processing](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()	Image Processing
+ - [![PHP TrashboxDumper](https://img.shields.io/badge/Language-PHP-blue.svg?style=flat-square)]()	PHP TrashboxDumper
+ - [![Senoclicker](https://img.shields.io/badge/Language-HTML+JavaScript-red.svg?style=flat-square)]()	Senoclicker
 
  ####  **Images Downloader**
 
