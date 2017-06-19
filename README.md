@@ -15,12 +15,17 @@
 
 **Список:**
 
- - Images Downloader
- - Pornreactor Links Grabber
- - RuMineWrapper
- - TLauncherModsGrabber
- - TLDR-API
- - TrashboxAPI
+ - [![Images Downloader](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()Images Downloader
+ - [![Pornreactor Links Grabber](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()Pornreactor Links Grabber
+ - [![RuMineWrapper](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()RuMineWrapper
+ - [![TLauncherModsGrabber](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()TLauncherModsGrabber
+ - [![TLDR-API](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()TLDR-API
+ - [![TrashboxAPI](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()TrashboxAPI
+ - [![Launcher](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]()Launcher
+ - [![TrashboxDumper](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()TrashboxDumper
+ - [![TegosStories](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()TegosStories
+ - [![Pornreactor Image Galery](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()Pornreactor Image Galery
+ - [![Image Processing](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()Image Processing
 
 ####  **Images Downloader**
 
@@ -40,11 +45,31 @@
 
 #### **TLDR-API**
 
-Почти то же самое, что и второй апплет, только для сайта посвящённого игре "The Long Dark". 
+Почти то же самое, что и третий апплет, только для сайта посвящённого игре "The Long Dark". 
 
 #### **TrashboxAPI**
 
-Библиотека-парсер для сайта Трэшбокс. Пока расписывать особо нечего. Одно лиш скажу - она будет использованна в моём приложении под андроид.
+Библиотека-парсер для сайта Трэшбокс. Пока расписывать особо нечего. Одно лишь скажу - она будет использованна в моём приложении под андроид. 
+
+#### **Launcher**
+
+Пересобрал лаунчер проекта [FastCraft](http://fastcraft.ru). Зачем? А я сам не знаю...
+
+#### **TrashboxDumper**
+
+Скрэпит все приложения под андроид(пока только под андроид, в будущем будет расширение функционала), и составляет удобочитаемый JSON-файл.
+
+#### **TegosStories**
+
+~~Грабит караваны~~ граббит истории с сайта[Tegos](http://tegos.ru) и представляет их в виде удобочитаемого JSON-файла.
+
+#### **Pornreactor Image Galery**
+
+Работает почти так же, как и мой [другой проект](https://github.com/NuarkNoir/ReaktorM), только не под андроидом, а под Шиндовсом, да и функционал пока куда более скудный, чем у андроидовской версии.
+
+#### **Image Processing**
+
+Моя не доконца доделанная галерея для сортировки изображений.
 
 ----------
 

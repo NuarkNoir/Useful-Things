@@ -1,0 +1,14 @@
+.button {
+	-fx-background-color: none;
+    -fx-background-image: url('xon.png');
+}
+
+.button:hover {
+	-fx-background-color: none;
+    -fx-background-image: url('xoff.png');
+}
+
+.button:pressed {
+	-fx-background-color: none;
+    -fx-background-image: url('xoff.png');
+}

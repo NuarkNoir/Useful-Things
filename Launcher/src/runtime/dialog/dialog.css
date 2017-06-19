@@ -1,0 +1,120 @@
+@import url(styles/common.css);
+
+/* Header styles */
+#layout {
+	-fx-background-color: white;
+}
+/* Button */
+#layout > #authPane > #goAuth  {
+    -fx-background-color: linear-gradient(#FF0000, #DC143C);
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+	-fx-font-family: "Arial";
+	-fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+#layout > #authPane > #reg  {
+    -fx-background-color: linear-gradient(#08E451, #00BC3F);
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+	-fx-font-family: "Arial";
+	-fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+#layout > #authPane > #lk  {
+    -fx-background-color: linear-gradient(#0099FF, #006FB9);
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+	-fx-font-family: "Arial";
+	-fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+#layout > #authPane > #status  {
+    -fx-background-color: linear-gradient(#DAA520, #B8860B);
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+	-fx-font-family: "Arial";
+	-fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+/* Auth pane styles */
+#layout > #authPane > #login {
+	-fx-background-image: url(styles/log.png);
+	-fx-background-color: none;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+	-fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+	-fx-font-family: "Arial";
+	-fx-font-size: 14px;
+	-fx-font-weight : bolder;
+}
+
+#layout > #authPane > #password {
+	-fx-background-image: url(styles/pass.png);
+	-fx-background-color: none;
+	-fx-font-family: "Arial";
+	-fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+	-fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+	-fx-font-weight : bolder;
+}
+
+#layout > #authPane > #password.hasSaved {
+	-fx-font-family: "Arial";
+	-fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+#layout > #authPane > #profiles > .arrow-button {
+	-fx-padding: 0;
+}
+
+#layout > #authPane > #profiles > .arrow-button > .arrow {
+	-fx-padding: 0;
+	-fx-shape: none;
+}
+
+#layout > #authPane > #profiles > .list-cell {
+	-fx-padding: 5px 5px 5px 8px;
+}
+
+#layout > #authPane > #goSettings  {
+	-fx-padding: 0;
+    -fx-background-color: linear-gradient(#08E451, #00BC3F);
+    -fx-background-radius: 10;
+	-fx-graphic: url(styles/settings.png);
+    -fx-background-insets: 0;
+}
+
+/* Overlay styles */
+#layout > #dim {
+	-fx-opacity: 0.0;
+	-fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+#layout > #dim > #overlay {
+	-fx-opacity: 0.0;
+	-fx-background-color: white;
+	-fx-background-radius: 5px;
+}
+
+#layout > #authPane > #savePassword {
+	-fx-font-family: Arial;
+	-fx-font-size: 14px;
+	-fx-background-color: none;
+	-fx-text-fill: white;
+    -fx-font-weight : bolder;
+}
+
+#serv {
+	-fx-background-color: white;
+	-fx-text-fill: white;
+	-fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 10pt;
+	-fx-font-weight : bolder;
+}

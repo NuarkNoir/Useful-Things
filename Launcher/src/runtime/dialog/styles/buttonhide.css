@@ -1,0 +1,10 @@
+.button {
+	-fx-background-color: none;
+    -fx-background-image: url('von.png');
+}
+
+.button:hover {
+	-fx-background-color: none;
+    -fx-background-image: url('voff.png');
+}
+

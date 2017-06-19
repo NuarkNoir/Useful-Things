@@ -3,6 +3,10 @@
 */dist/
 */nbproject/
 /WORK/
+*/*/bin
+*/*/obj
+*/.vs
+*.sln.DotSettings.user
 
 hs_err_pid*
 
