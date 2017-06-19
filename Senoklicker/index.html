@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="сено, кликер, seno, clicker"> 
+	<meta name="author" content="Nuark Noir"> 
+	<meta name="description" content="Коси сено вне корпуса!"> 
+    <title>SENOCOS</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/logic.js"></script>
+	<script type="text/javascript">
+	$(document).ready(update);
+	setInterval(bg, 1000)
+	</script>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<h2 class="title">Senocos V1.4&#946;</h2>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="six columns">
+				<b class="title">Stats:</b>
+				<br>
+				<div class="three columns">Seno:</div>
+				<div class="five columns counter">0</div>
+				<br>
+				<div class="three columns">Seno за клик:</div>
+				<div class="five columns senopc">0</div>
+				<br>
+				<div class="three columns">Seno/sec:</div>
+				<div class="five columns senops">0</div>
+				<br>
+				<div class="three columns"><abbr title="Статус колонии">СК</abbr>:</div>
+				<div class="five columns coloniastatus">0</div>
+			</div>
+			<div class="six columns">
+				<b class="title">Boughts:</b>
+				<br>
+				<div class="three columns">Kadets:</div>
+				<div class="five columns b_Kadets cnt">0</div>
+				<br>
+				<div class="three columns">Odeleniya:</div>
+				<div class="five columns b_Otdeleniya cnt">0</div>
+				<br>
+				<div class="three columns">Vzvods:</div>
+				<div class="five columns b_Vzvods cnt">0</div>
+				<br>
+				<div class="three columns">Rots:</div>
+				<div class="five columns b_Rots cnt">0</div>
+			</div>
+		</div>
+		<div class="row">
+			<b class="title">Shop:</b>
+			<br>
+			<b class="title">Kosa:</b>
+			<br>
+			<div class="eleven columns">
+				<button onclick="buySenoer(4);" class="b_Kosa buy">[10000 Sen] Kadets (5/click)</button>
+			</div>
+			<br>
+			<b class="title">Autoseno:</b>
+			<br>
+			<div class="five columns">
+				<button onclick="buySenoer(0);" class="b_Kadets buy">[5 Sen] Kadets (1/sec)</button>
+			</div>
+			<div class="five columns sec">
+				<button onclick="buySenoer(1);" class="b_Otdeleniya buy">[30 Sen] Odeleniya (6/sec)</button>
+			</div>
+			<br>
+			<div class="five columns">
+				<button onclick="buySenoer(2);" class="b_Vzvods buy">[600 Sen] Vzvods (20/sec)</button>
+			</div>
+			<div class="five columns">
+				<button onclick="buySenoer(3);" class="b_Rots buy">[48000 Sen] Rots (80/sec)</button>
+			</div>
+		</div>
+		<div class="row">
+			<button onclick="addSeno();" class="clBtn">Косить</button>
+		</div>
+	</div>
+</body>
+</html>

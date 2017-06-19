@@ -26,8 +26,10 @@
  - [![TegosStories](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()TegosStories
  - [![Pornreactor Image Galery](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()Pornreactor Image Galery
  - [![Image Processing](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]()Image Processing
+ - [![PHP TrashboxDumper](https://img.shields.io/badge/Language-PHP-blue.svg?style=flat-square)]()PHP TrashboxDumper
+ - [![Senoclicker](https://img.shields.io/badge/Language-HTML+JavaScript-red.svg?style=flat-square)]()Senoclicker
 
-####  **Images Downloader**
+ ####  **Images Downloader**
 
 Из названия всё довольно понятно: с помощью данного апплета можно скачивать картинки. На вход берёт ссылки из файла "links.txt", проводит отсеивание по типам и начинает скачивание. Файлы проходят через мой сервер, поэтому файлы можно скачивать, даже если "Контент запрещён та территории РФ". Ну, если вы понимаете, о чем я.
 
@@ -70,6 +72,14 @@
 #### **Image Processing**
 
 Моя не доконца доделанная галерея для сортировки изображений.
+
+#### **PHP TrashboxDumper**
+
+PHP TrashboxDumper. Работает так же, как и его собрат на C#(вернее, наоборот), но куда дольше.
+
+#### **Senoclicker**
+
+Senoclicker - довольно странный кликер. Не шарящие люди не поймут.
 
 ----------
 
