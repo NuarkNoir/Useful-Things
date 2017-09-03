@@ -21,7 +21,6 @@
  - TLauncherModsGrabber
  - TLDR-API
  - TrashboxAPI
- - Launcher
  - TrashboxDumper
  - TegosStories
  - Pornreactor Image Galery
@@ -52,10 +51,6 @@
 #### [![TrashboxAPI](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]() **TrashboxAPI**
 
 Библиотека-парсер для сайта Трэшбокс. Пока расписывать особо нечего. Одно лишь скажу - она будет использованна в моём приложении под андроид. 
-
-#### [![Launcher](https://img.shields.io/badge/Language-Java-orange.svg?style=flat-square)]() **Launcher**
-
-Пересобрал лаунчер проекта [FastCraft](http://fastcraft.ru). Зачем? А я сам не знаю...
 
 #### [![TrashboxDumper](https://img.shields.io/badge/Language-CSharp-brightgreen.svg?style=flat-square)]() **TrashboxDumper**
 

@@ -3,10 +3,9 @@ package com.nuark.trashbox.models;
 import java.util.ArrayList;
 
 public class User {
-    String nick;
-    ArrayList<String> stats, info;
+    String nick, stats, info;
 
-    public User(String nick, ArrayList<String> info, ArrayList<String> stats) {
+    public User(String nick, String info, String stats) {
         this.nick = nick;
         this.info = info;
         this.stats = stats;
@@ -16,12 +15,11 @@ public class User {
         return nick;
     }
 
-    public ArrayList<String> getInfo() {
-        info.remove(info.size()-2);
+    public String getInfo() {
         return info;
     }
 
-    public ArrayList<String> getStats() {
+    public String getStats() {
         return stats;
     }
 }
