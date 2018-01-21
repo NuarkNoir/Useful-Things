@@ -1,6 +1,4 @@
-package com.nuark.trashbox.models;
-
-import java.util.ArrayList;
+package xyz.nuark.trashbox.models;
 
 public class User {
     String nick, stats, info;

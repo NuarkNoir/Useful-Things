@@ -1,7 +1,7 @@
-package com.nuark.trashbox.api;
+package xyz.nuark.trashbox.api;
 
-import com.nuark.trashbox.models.User;
-import com.nuark.trashbox.Globals.Statics;
+import xyz.nuark.trashbox.models.User;
+import xyz.nuark.trashbox.Globals.Statics;
 import java.io.IOException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;

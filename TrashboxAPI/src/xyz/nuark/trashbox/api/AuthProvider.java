@@ -1,8 +1,7 @@
-package com.nuark.trashbox.api;
+package xyz.nuark.trashbox.api;
 
-import com.nuark.trashbox.exceptions.AuthException;
-import com.nuark.trashbox.Globals.CurrentUser;
-import com.nuark.trashbox.Globals.Statics;
+import xyz.nuark.trashbox.exceptions.AuthException;
+import xyz.nuark.trashbox.Globals.Statics;
 import java.io.IOException;
 import org.jsoup.Connection;
 import org.jsoup.Connection.Method;
@@ -18,12 +17,14 @@ public class AuthProvider {
     }
     
     public void Auth() throws IOException, AuthException{
-        Connection connect = Jsoup.connect(Statics.getAjaxUrl()).ignoreContentType(true).method(Method.POST)
+        Connection connect = Jsoup.connect(Statics.getMainUrl() + "/ajax.php").ignoreContentType(true).method(Method.POST)
                 .data("action", "auth").data("remember", "1").data("t_control", "1")
                 .data("login", login).data("pass", password);
         Response response = connect.execute();
         String respcontent = response.body();
-        if (respcontent.contains("window.location")) Statics.setCu(new CurrentUser(login, password, Statics.getUserURL() + login, response.cookies()));
+        /*
+        if (respcontent.contains("window.location")) Statics.setCu(new UserManager(login, password, Statics.getUserURL() + login, response.cookies()));
         else throw new AuthException(respcontent.replace("$('div_auth_error').innerHTML = '", "").replace("<br><BR>';", ""));
+        */
     }
 }

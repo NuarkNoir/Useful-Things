@@ -1,10 +1,8 @@
-package com.nuark.trashbox.models;
-
-import java.util.ArrayList;
+package xyz.nuark.trashbox.models;
 
 public class News {
 
-    private String title, topicLink, imageLink;
+    private final String title, topicLink, imageLink;
 
     public News(String title, String topicLink, String imageLink) {
         this.title = title;

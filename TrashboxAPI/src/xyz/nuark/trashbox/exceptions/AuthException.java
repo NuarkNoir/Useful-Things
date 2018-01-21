@@ -1,4 +1,4 @@
-package com.nuark.trashbox.exceptions;
+package xyz.nuark.trashbox.exceptions;
 
 public class AuthException extends Exception {
     String message;
